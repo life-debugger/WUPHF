@@ -5,8 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
-USERNAME = 'toutounchi.ma'
-PASSWORD = 'lilythebrave'
+USERNAME = 'the_wuphf'
+PASSWORD = 'hNzJnUVF3LSu8hb'
 
 if __name__ == '__main__':
     options = Options()
@@ -44,7 +44,7 @@ if __name__ == '__main__':
 
     time.sleep(2)
     driver.get('https://www.instagram.com/direct/new/')
-    driver.find_element_by_name('queryBox').send_keys('billie')
+    driver.find_element_by_name('queryBox').send_keys('samesmail')
     time.sleep(5)
     actions = ActionChains(driver)
     actions.send_keys(Keys.TAB)
